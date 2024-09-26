@@ -1,0 +1,50 @@
+
+/* Estilo general de la sección */
+.pena-div {
+    padding: 20px;
+    background-color: #f8f9fa; /* Color de fondo suave */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los encabezados */
+.pena-h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    border-left: 4px solid #007bff; /* Línea de color para destacar */
+    padding-left: 10px;
+}
+
+/* Estilo de la lista */
+.pena-ul {
+    list-style: none; /* Eliminar viñetas predeterminadas */
+    padding: 0;
+}
+
+/* Estilo de los elementos de lista */
+.pena-li {
+    margin: 10px 0;
+}
+
+/* Estilo de los enlaces */
+.pena-a {
+    text-decoration: none; /* Sin subrayado */
+    color: #007bff; /* Color azul para los enlaces */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Efecto al pasar el ratón sobre los enlaces */
+.pena-a-:hover {
+    color: #0056b3; /* Cambiar de color al pasar el ratón */
+}
+
+/* Estilo para la línea horizontal */
+.pena-hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
