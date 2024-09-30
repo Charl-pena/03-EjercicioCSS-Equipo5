@@ -23,12 +23,12 @@ table{
 
 th{
     border: 2px solid beige;
-}
+}   
 
 /* Estilo general de la sección */
 .pena-div {
     padding: 20px;
-    background-color: #f8f9fa; /* Color de fondo suave */
+    background-color: #f8f9fa4a; /* Color de fondo suave */
     border: 1px solid #ddd;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -60,17 +60,4 @@ th{
     color: #007bff; /* Color azul para los enlaces */
     font-weight: bold;
     transition: color 0.3s;
-}
-
-/* Efecto al pasar el ratón sobre los enlaces */
-.pena-a-:hover {
-    color: #0056b3; /* Cambiar de color al pasar el ratón */
-}
-
-/* Estilo para la línea horizontal */
-.pena-hr {
-    border: 0;
-    height: 1px;
-    background: #ddd;
-    margin: 20px 0;
 }
