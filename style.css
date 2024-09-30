@@ -7,6 +7,23 @@ h1 {
     color: black;
 }
 
+thead{
+    background-color: rgb(3, 3, 99);
+    color: aliceblue;
+}
+
+tbody, tfoot{
+    background-color: rgb(141, 141, 248);
+    color: black;
+}
+
+table{
+    border: 2px solid rgb(238, 233, 233);
+}
+
+th{
+    border: 2px solid beige;
+}
 
 /* Estilo general de la sección */
 .pena-div {
