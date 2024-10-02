@@ -1,29 +1,43 @@
 body {
     background-color: rgb(255, 196, 0);
 }
-h1 {
+img{
+    display: block; /* Cambia la imagen a bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 70%; /* Ajusta el ancho según sea necesario */
+}
+    h1 {
     text-align: center;
     font-size: 2.5rem;
     color: black;
 }
 
+/*Tabla */
+table {
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+}
 thead{
     background-color: rgb(3, 3, 99);
     color: aliceblue;
 }
-
 tbody, tfoot{
-    background-color: rgb(141, 141, 248);
+    background-color: rgb(243, 235, 119);
     color: black;
 }
-
-table{
-    border: 2px solid rgb(238, 233, 233);
-}
-
 th{
-    border: 2px solid beige;
-}   
+    border: 2px solid rgb(32, 78, 228);
+    width:0 auto;
+}  
+td{
+    border: 2px solid rgb(241, 243, 113);
+    width: 150px;
+  } 
+caption{
+    color: black;
+    caption-side: top;
+    font-weight: 900;
+    font-size: larger;
+  }
 
 /* Estilo general de la sección */
 .pena-div {
